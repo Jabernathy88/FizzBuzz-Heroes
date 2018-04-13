@@ -6,22 +6,22 @@ end
 
 ruby = Hero.create(
   name: 'Ruby',
-  code_sample: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
-  text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  code_sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo dicta ab, reprehenderit nihil repellendus.', 
+  text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo dicta ab, reprehenderit nihil repellendus.', 
   color: 'red'
 )
 
 jmoney = Hero.create(
   name: 'JavaScript',
-  code_sample: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
-  text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  code_sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo dicta ab, reprehenderit nihil repellendus.', 
+  text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo dicta ab, reprehenderit nihil repellendus.', 
   color: 'blue'
 )
 
 python = Hero.create(
   name: 'Python',
-  code_sample: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
-  text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  code_sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo dicta ab, reprehenderit nihil repellendus.', 
+  text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo dicta ab, reprehenderit nihil repellendus.', 
   color: 'green'
 )
 

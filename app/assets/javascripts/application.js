@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require foundation
 //= require turbolinks
+//= require jquery
 //= require_tree .
 
 $(function(){ $(document).foundation(); });

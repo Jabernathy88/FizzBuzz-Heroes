@@ -56,3 +56,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'foundation-rails'
 gem 'autoprefixer-rails'
 
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
