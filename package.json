@@ -1,5 +1,7 @@
 {
   "name": "fizzbuzz-heroes",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "graceful-fs": "^4.1.11"
+  }
 }

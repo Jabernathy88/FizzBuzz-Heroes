@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Heroes</h1>
+<h4>Lorem ipsum dolor sit.</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code sample</th>
+      <th>Text</th>
+      <th>Color</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @heros.each do |hero| %>
+      <tr>
+        <td><%= hero.name %></td>
+        <td><%= hero.code_sample %></td>
+        <td><%= hero.text %></td>
+        <td><%= hero.color %></td>
+        <td><%= link_to 'Show', hero %></td>
+        <td><%= link_to 'Edit', edit_hero_path(hero) %></td>
+        <td><%= link_to 'Destroy', hero, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Hero', new_hero_path %>
