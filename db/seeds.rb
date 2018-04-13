@@ -1,7 +1,28 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Hero.destroy_all
+
+ActiveRecord::Base.connection.tables.each do |t|
+  ActiveRecord::Base.connection.reset_pk_sequence!(t)
+end
+
+ruby = Hero.create(
+  name: 'Ruby',
+  code_sample: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  color: 'red'
+)
+
+jmoney = Hero.create(
+  name: 'JavaScript',
+  code_sample: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  color: 'blue'
+)
+
+python = Hero.create(
+  name: 'Python',
+  code_sample: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
+  color: 'green'
+)
+
+
