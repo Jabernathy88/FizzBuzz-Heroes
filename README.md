@@ -1,6 +1,6 @@
 # FizzBuzz Heroes
 
-![Mega Man run cycle animation](./megaman_500.gif)
+![Mega Man run cycle animation](./public/megamanx2.gif)
 
 ## Description
 
