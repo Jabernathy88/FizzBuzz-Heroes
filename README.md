@@ -45,6 +45,18 @@ Uploading soon.
 
 ### 3. Python
 
+```
+for num in range(1,101):
+  if num % 15 == 0:
+    print('FizzBuzz')
+  elif num % 3 == 0:
+    print('Fizz')
+  elif num % 5 == 0:
+    print('Buzz')
+  else:
+    print(num)
+```
+
 * [Python (also Repl.it)](https://repl.it/@Jabernathy88/FizzBuzz-Python)
 
 ## Styles (single-page app) 
